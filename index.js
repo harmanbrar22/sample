@@ -1,11 +1,3 @@
-var qrcode = new QRCode("qrcode");
-
-function makeCode () {    
-  var elText = "google.com";
-  qrcode.makeCode(elText);
-}
-
-makeCode();
 
 $(document).ready(function(){
     $('.slider').slick({
